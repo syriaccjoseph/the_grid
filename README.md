@@ -21,6 +21,11 @@ python manage.py makemigrations products
 python manage.py migrate
 ```
 
+## Load Test data
+```
+python manage.py loaddata fixtures/the_grid_testdata.json
+```
+
 ## Run The Grid
 ```
 python manage.py runserver
